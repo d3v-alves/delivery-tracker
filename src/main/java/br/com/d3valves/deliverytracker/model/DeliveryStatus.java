@@ -1,4 +1,8 @@
 package br.com.d3valves.deliverytracker.model;
 
-public class DeliveryStatus {
+public enum DeliveryStatus {
+    PENDING,
+    IN_TRANSIT,
+    DELIVERED,
+    CANCELLED
 }
